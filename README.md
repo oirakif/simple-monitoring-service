@@ -28,3 +28,6 @@ curl --location --request POST 'http://localhost:8000/startJob' \
 curl --location --request POST 'http://localhost:8000/finishJob/:jobID' \
 --header 'Content-Type: application/json'
 ```
+
+## Implementation diagram
+<img width="576" alt="image" src="https://user-images.githubusercontent.com/83383024/204227138-afabe8ab-2041-4752-8a3a-f758f563fedb.png">
